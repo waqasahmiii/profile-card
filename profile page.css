@@ -1,0 +1,68 @@
+*{  
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: linear-gradient(to right, gray, rgb(3, 146, 169), yellow,pink, blue );
+            background-size: 400% 400%;
+            animation: move 5s ease infinite;
+        }
+        @keyframes move {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+        .pic{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(84, 3, 204);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .contanier{
+            background-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            padding: 2rem;
+            max-width: 250px;
+            margin:100px auto;
+            border-radius: 12px;
+            box-shadow: -1px -1px 100px 25px;
+            
+        }
+        h2{
+            color:black ;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+        }
+        p{
+            color: rgb(10, 15, 15);
+            text-align: center;
+            padding-top: 5px;
+            margin-bottom: 1rem;
+            font-size: 16px;
+        }
+        .badge{
+            display: flex;
+            color: black;
+            justify-content: center;
+            gap: 13px;
+        }
+        #ko{
+            background-color: rgb(2, 149, 234);
+            border-radius: 20px;
+            padding: 4px 12px;
+        }
+        .logoo{
+            background-color: rgb(84, 3, 204);
+            font-size: 40px;
+        }
+        .j{
+            font-size: 13px;
+        }
